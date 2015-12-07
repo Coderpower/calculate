@@ -1,8 +1,8 @@
     {
 	    "directions": "directions.md",
 		"editables": [
-			"sources/filter.js",
-			"sources/sort.js"
+			"sources/uneven.js",
+			"sources/reverse.js"
 		],
 		"commands": [
 			"npm install",
