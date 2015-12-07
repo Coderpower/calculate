@@ -1,6 +1,6 @@
     {
 	    "directions": "directions.md",
-		"sources": [
+		"editables": [
 			"sources/filter.js",
 			"sources/sort.js"
 		],
