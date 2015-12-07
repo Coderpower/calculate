@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/Coderpower/test-discovery",
-  "licence": "MIT",
+  "license": "MIT",
   "dependencies": {
     "expect.js": "^0.3.1"
   },
