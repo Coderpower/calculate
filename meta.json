@@ -1,0 +1,19 @@
+    {
+	    "directions": "directions.md",
+		"sources": [
+			"sources/filter.js",
+			"sources/sort.js"
+		],
+		"commands": [
+			"npm install",
+			"npm test"
+		],
+		"steps": [
+			{
+				"title": "Should return only uneven numbers."
+			},
+			{
+				"title": "Should return a array of number in reverse order."
+			}
+		] 
+	}
