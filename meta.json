@@ -13,10 +13,25 @@
 		],
 		"steps": [
 			{
-				"title": "Should return only uneven numbers."
+				"title": "You must call moment"
 			},
 			{
-				"title": "Should return a array of number in reverse order."
-			}
+				"title": "You must call  moment with the given date"
+			},
+      {
+				"title": "You must call the subtract method"
+			},
+      {
+        "title": "You must subtract 1 month"
+      },
+      {
+        "title": "You must call format"
+      },
+      {
+        "title": "You must call format with \'l\'"
+      },
+      {
+        "title": "You must return \'30/11/2014\'"
+      }
 		] 
 	}
