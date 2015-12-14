@@ -28,10 +28,10 @@
         "title": "You must call format"
       },
       {
-        "title": "You must call format with \'l\'"
+        "title": "You must call format with 'l'"
       },
       {
-        "title": "You must return \'30/11/2014\'"
+        "title": "You must return '30/11/2014'"
       }
 		] 
 	}
