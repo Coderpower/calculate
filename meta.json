@@ -1,36 +1,22 @@
-{
-  "directions": "directions.md",
-  "language": "javascript",
-  "framework": "mocha",
-  "version": "",
-  "editables": [
-    "sources/substractOneMonth.js"
-  ],
-  "commands": [
-    "npm install",
-    "npm test"
-  ],
-  "steps": [
     {
-      "title": "You must call moment"
-    },
-    {
-      "title": "You must call  moment with the given date"
-    },
-    {
-      "title": "You must call the subtract method"
-    },
-    {
-      "title": "You must subtract 1 month"
-    },
-    {
-      "title": "You must call format"
-    },
-    {
-      "title": "You must call format with 'l'"
-    },
-    {
-      "title": "You must return '30/11/2014'"
-    }
-  ]
-}
+	    "directions": "directions.md",
+	    "language": "javascript",
+	    "framework": "mocha",
+	    "version": "",
+		"editables": [
+			"sources/uneven.js",
+			"sources/reverse.js"
+		],
+		"commands": [
+			"npm install",
+			"npm test"
+		],
+		"steps": [
+			{
+				"title": "Should return only uneven numbers."
+			},
+			{
+				"title": "Should return a array of number in reverse order."
+			}
+		] 
+	}

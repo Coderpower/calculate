@@ -1,2 +1,2 @@
-1 calculate
+# test-discovery
 testing coderpower system

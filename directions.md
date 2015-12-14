@@ -1,5 +1,5 @@
-### Calculate
+### Don't reinvent the wheel, expect this time.
 
-In the video, we saw how to add a duration to a date using `moment.add()`.
+Your mission, if you accept is to **lorem ispum**.
 
-Use the same principle to `subtract` `1 month` from the given date, and format it with `l` before returning it.
+*good luck with that*
