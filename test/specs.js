@@ -1,5 +1,4 @@
 var expect = require('expect.js');
-var reverse = require('../sources/substractOneMonth');
 var moment = sinon.spy(Moment);
 var result = require('../sources/substractOneMonth');
 
