@@ -1,5 +1,8 @@
     {
 	    "directions": "directions.md",
+	    "language": "javascript",
+	    "framework": "mocha",
+	    "version": "",
 		"editables": [
 			"sources/uneven.js",
 			"sources/reverse.js"
