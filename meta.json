@@ -7,10 +7,15 @@
 			"sources/uneven.js",
 			"sources/reverse.js"
 		],
-		"commands": [
-			"npm install",
-			"npm test"
-		],
+		"commands": {
+			"install": [
+				"npm install",
+				"npm test"
+			],
+			"run": [
+				"npm test"	
+			]
+		},
 		"steps": [
 			{
 				"title": "Should return only uneven numbers."
