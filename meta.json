@@ -12,9 +12,8 @@
 				"npm install",
 				"npm test"
 			],
-			"run": [
-				"npm test"	
-			]
+			"run": "npm test"	
+			
 		},
 		"steps": [
 			{
