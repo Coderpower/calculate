@@ -4,8 +4,9 @@
 	    "framework": "mocha",
 	    "version": "",
 		"editables": [
-			"sources/uneven.js",
-			"sources/reverse.js"
+			"sources/contains.js",
+			"sources/starts.js",
+			"sources/ends.js"
 		],
 		"commands": {
 			"install": [
@@ -17,10 +18,13 @@
 		},
 		"steps": [
 			{
-				"title": "Should return only uneven numbers."
+				"title": "should validate text that contains word or not"
 			},
 			{
-				"title": "Should return a array of number in reverse order."
+				"title": "should validate text that starts with word or not"
+			},
+			{
+				"title": "should validate text that ends with word or not"
 			}
 		] 
 	}
