@@ -1,2 +1,5 @@
-# test-discovery
-testing coderpower system
+Discover Moment.js Manipluation
+---------------------------------
+
+setup :
+-
