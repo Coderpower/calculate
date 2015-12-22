@@ -4,9 +4,7 @@
 	    "framework": "mocha",
 	    "version": "",
 		"editables": [
-			"sources/contains.js",
-			"sources/starts.js",
-			"sources/ends.js"
+			"sources/dateFormatter.js"
 		],
 		"commands": {
 			"install": [
