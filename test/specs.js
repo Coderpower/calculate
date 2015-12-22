@@ -1,25 +1,17 @@
 var expect = require('expect.js');
-var contains = require('../sources/contains');
-var ends = require('../sources/ends');
-var starts = require('../sources/starts');
+var dateFormatter = require('../sources/dateFormatter.js');
 
 describe('contains', function(){
-	it('should validate text that contains word or not', function(){
-		expect(contains('Hello Coderpower', 'Coderpower')).to.be.ok();
-		expect(contains('Hello Coderpower', 'Foo Bar')).to.not.be.ok();
+	var date = new Date('1987-05-15T13:00:00Z');
+	it('should return the correct value for a \'tiny\' format', function(){
+		expect(dateFormatter(date, 'tiny')).to.equal('05/15/1987')
 	});
-});
 
-describe('starts', function(){
-	it('should validate text that starts with word or not', function(){
-		expect(starts('Hello Coderpower', 'Hello')).to.be.ok();
-		expect(starts('Hello Coderpower', 'Foo Bar')).to.not.be.ok();
+	it('should return the correct value for a \'simple\' format', function(){
+		expect(dateFormatter(date, 'simple')).to.equal('May 15, 1987')
 	});
-});
 
-describe('ends', function(){
-	it('should validate text that ends with word or not', function(){
-		expect(ends('Hello Coderpower', 'Coderpower')).to.be.ok();
-		expect(ends('Hello Coderpower', 'Foo Bar')).to.not.be.ok();
+	it('should return the correct value for a \'full\' format', function(){
+		expect(dateFormatter(date, 'full')).to.equal('Friday, May 15, 1987 3:00 PM')
 	});
 });

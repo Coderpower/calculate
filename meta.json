@@ -18,13 +18,13 @@
 		},
 		"steps": [
 			{
-				"title": "should validate text that contains word or not"
+				"title": "should return the correct value for a 'tiny' format"
 			},
 			{
-				"title": "should validate text that starts with word or not"
+				"title": "should return the correct value for a 'simple' format"
 			},
 			{
-				"title": "should validate text that ends with word or not"
+				"title": "should return the correct value for a 'full' format"
 			}
 		] 
 	}
