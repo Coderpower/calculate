@@ -1,29 +1,34 @@
-    {
-	    "directions": "directions.md",
-	    "language": "javascript",
-	    "framework": "mocha",
-	    "version": "",
-		"editables": [
-			"sources/dateFormatter.js",
-			"sources/dateFormatter2.js"
-		],
-		"commands": {
-			"install": [
-				"npm install",
-				"npm test"
-			],
-			"run": "npm test"	
-			
+{
+    "directions": "directions.md",
+    "language": "javascript",
+    "version": "",
+    "image":"test",
+	"framework":{
+		"name":"mocha"
+	},
+	"discovery": {
+		"name": "lodash",
+		"step": 1,
+		"version": 1.2
+	},
+	"editables": [
+		"sources/dateFormatter.js",
+		"sources/dateFormatter2.js"
+	],
+	"cmd": {
+		"install": "npm install",
+		"run": "npm test"	
+		
+	},
+	"steps": [
+		{
+			"title": "should return the correct value for a 'tiny' format"
 		},
-		"steps": [
-			{
-				"title": "should return the correct value for a 'tiny' format"
-			},
-			{
-				"title": "should return the correct value for a 'simple' format"
-			},
-			{
-				"title": "should return the correct value for a 'full' format"
-			}
-		] 
-	}
+		{
+			"title": "should return the correct value for a 'simple' format"
+		},
+		{
+			"title": "should return the correct value for a 'full' format"
+		}
+	] 
+}
