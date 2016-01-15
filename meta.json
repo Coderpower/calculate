@@ -16,8 +16,8 @@
 		"sources/dateFormatter2.js"
 	],
 	"cmd": {
-		"install": "npm install",
-		"run": "npm test"	
+		"install": ["npm", "install"],
+		"run": ["npm", "test"]
 		
 	},
 	"steps": [
